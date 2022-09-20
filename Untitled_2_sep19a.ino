@@ -6,7 +6,7 @@
 //set the pin for dht sensor
 #define DHTPIN 9
 
-#define DHTTYPE DHT22
+#define DHTTYPE DHT11
 
 //intialising the object of dht class and taking input through constructor
 DHT dht(DHTPIN, DHTTYPE);
